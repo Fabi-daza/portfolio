@@ -1,9 +1,11 @@
 :root{
     --primary: #212A3E;
     --secondary: #434242;
-    --black: #222222;
+    --black: #191818;
     --background: #D8D9CF;
     --white: #ffffff;
+    --gradient1: rgba(0,0,0,0.7);
+    --gradient2: rgba(40, 40, 108, 0.7);
 }
 body{
     border: 0;
@@ -16,13 +18,17 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
 }
 .menu{
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     width: 50vw;
+    height: 100vh;
     background-color: var(--black);
     box-shadow: 0 0 0 100vmax rgba(0,0,0, 0.6);
     display: flex;
@@ -49,6 +55,17 @@ header{
     color: var(--white);
     text-decoration: none;
     font-size: 1.5rem;
+}
+.hero{
+    background-image: linear-gradient(var(--gradient1), var(--gradient2)), url(./img/hero.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10vh;    
 }
 /* Media Tablet  */
 @media screen and (min-width: 768px){
