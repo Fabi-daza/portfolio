@@ -117,6 +117,7 @@ header{
     padding: 0px 30px;
     margin: 5px 0px;
     font-weight: 300;
+    font-size: 1.3rem;
 }
 .about b{
     color: var(--primary);
