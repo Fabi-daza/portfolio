@@ -43,6 +43,10 @@ header{
     visibility: hidden;
     font-weight: 300;
 }
+.menu a:hover{
+    color: var(--primary);
+    transition: 0.5s;
+}
 .menu-visible{
     opacity: 1;
     visibility: visible;
@@ -55,6 +59,10 @@ header{
     margin: 0px 10px;
     cursor: pointer;
 
+}
+.abrir-menu:hover , .cerrar-menu:hover{
+    color: var(--primary);
+    transition: 0.5s;
 }
 .menu a{
     color: var(--white);
@@ -101,6 +109,7 @@ header{
 }
 .social-btn a:hover{
     color: var(--primary);
+    transition: 0.5s;
 }
 .about{
     display: flex;
