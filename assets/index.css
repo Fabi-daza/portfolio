@@ -155,11 +155,12 @@ header{
 .skills-details{
     font-size: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
 }
 .skills-details i{
-    margin: 15px;
+    margin: 10px;
     color: var(--white);
     &:hover{
         color: var(--primary);
