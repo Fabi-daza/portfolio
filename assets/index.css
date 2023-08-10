@@ -158,6 +158,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+    justify-content: center;
 }
 .skills-details i{
     margin: 10px;
