@@ -12,6 +12,10 @@ body{
     background-color: var(--background);
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
 header{
     background-color: var(--black);
     display: flex;
@@ -24,6 +28,7 @@ header{
 }
 .logo{
     width: 200px;
+    height: auto;
     padding: 10px;
 }
 .menu{
@@ -71,6 +76,7 @@ header{
 }
 .banner{
     margin-top: 80px;
+    min-height: 400px;
     padding: 40px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),url(../assets/img/hero.webp);
     background-position: center center;
@@ -96,7 +102,8 @@ header{
     font-weight: 300;
 }
 .social-card img{
-    width: 80%;
+    width: 250px;
+    height: 250px;
     border: 5px solid var(--primary);
     box-shadow:  4px 4px 16px rgba(170, 168, 168, 0.6);
     border-radius: 50%;
@@ -125,8 +132,6 @@ header{
 .about p{
     padding: 0px 30px;
     margin: 5px 0px;
-    font-weight: 300;
-    font-size: 1.3rem;
 }
 .about b{
     color: var(--primary);
